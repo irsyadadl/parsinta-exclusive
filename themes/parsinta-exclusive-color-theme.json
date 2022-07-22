@@ -2,6 +2,7 @@
     "name": "Irsyad A. Panjaitan",
     "colors": {
         "editor.background": "#1F2937",
+        "editor.foreground": "#E5E7EB",
         "editorGutter.background": "#1F2937",
         "activityBar.background": "#111827",
         "activityBar.foreground": "#F9FAFB",
