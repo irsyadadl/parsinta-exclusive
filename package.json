@@ -2,7 +2,7 @@
     "name": "parsinta-exclusive",
     "displayName": "Parsinta Exclusive",
     "description": "A theme that suits your eyes.",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "icon": "images/icon.png",
     "bugs": {
         "url": "https://github.com/irsyadadl/parsinta-exclusive/issues",
@@ -29,9 +29,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Irsyad A. Panjaitan",
+                "label": "Parsinta Exclusive",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Irsyad A. Panjaitan-color-theme.json"
+                "path": "./themes/parsinta-exclusive-color-theme.json"
             }
         ]
     }
