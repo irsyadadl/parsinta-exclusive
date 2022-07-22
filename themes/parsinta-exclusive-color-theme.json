@@ -105,7 +105,8 @@
                 "support.other.namespace.php",
                 "variable.other.constant.property",
                 "meta.object-literal.key",
-                "meta.structure.dictionary.value.json.comments"
+                "meta.structure.dictionary.value.json.comments",
+                "variable.other.property.js.jsx"
             ],
             "settings": {
                 "foreground": "#E5E7EB"
@@ -152,7 +153,8 @@
                 "constant.language.boolean.true",
                 "keyword.operator.new",
                 "keyword.other.new",
-                "variable.parameter.js.jsx"
+                "variable.parameter.js.jsx",
+                "variable.other.readwrite.js.jsx"
             ],
             "settings": {
                 "foreground": "#7DD3FC"
