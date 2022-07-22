@@ -5,8 +5,9 @@
         "editorGutter.background": "#1F2937",
         "activityBar.background": "#111827",
         "activityBar.foreground": "#F9FAFB",
+        "activityBar.border": "#374151",
         "editorGroupHeader.noTabsBackground": "#111827",
-        "editorGroup.emptyBackground": "#ff0000",
+        "editorGroup.emptyBackground": "#1F2937",
         "editorLineNumber.activeForeground": "#F9FAFB",
         "editorLineNumber.foreground": "#6B7280",
         "editorGroupHeader.border": "#374151",
@@ -33,6 +34,8 @@
         "panelTitle.activeForeground": "#F9FAFB",
         "panelTitle.inactiveForeground": "#9CA3AF",
         "terminal.ansiBrightCyan": "#0EA5E9",
+        "badge.background":"#2563EB",
+        "badge.foreground":"#ffffff",
         "terminal.ansiBrightRed": "#F45282",
         "terminal.ansiBrightGreen": "#F9FAFB",
         "terminal.ansiBrightBlue": "#A5CAFF",
@@ -51,7 +54,7 @@
         "statusBar.background": "#374151",
         "keybindingLabel.background": "#374151",
         "keybindingLabel.border": "#4B5563",
-        "dropdown.background": "#ff0000",
+        "dropdown.background": "#1F2937",
         "keybindingLabel.bottomBorder": "#374151",
         "keybindingTable.rowsBackground": "#111827",
         "keybindingTable.headerBackground": "#374151",
@@ -73,6 +76,7 @@
                 "string.quoted.single",
                 "string.quoted.double",
                 "string.template",
+                "string.json.comments"
             ],
             "settings": {
                 "foreground": "#EFD5AF"
@@ -80,7 +84,6 @@
         },
         {
             "scope": [
-
                 "entity.name.function.php",
                 "variable.language.this.php",
                 "variable.other.property.php",
@@ -100,14 +103,15 @@
                 "keyword.control.exit.php",
                 "support.other.namespace.php",
                 "variable.other.constant.property",
-                "meta.object-literal.key"
+                "meta.object-literal.key",
+                "meta.structure.dictionary.value.json.comments"
             ],
             "settings": {
                 "foreground": "#D1D5DB"
             }
         },
         {
-            "scope": "comment.block",
+            "scope": ["comment.block", "comment.line.double-slash.js"],
             "settings": {
                 "foreground": "#6B7280"
             }
@@ -117,16 +121,14 @@
                 "entity.other.attribute-name.html",
                 "storage.type.function.php",
                 "entity.other.attribute-name.js.jsx",
-                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.class.css"
             ],
             "settings": {
                 "foreground": "#A5CAFF"
             }
         },
         {
-            "scope": [
-                "constant.numeric.decimal.php",
-            ],
+            "scope": ["constant.numeric.decimal.php"],
             "settings": {
                 "foreground": "#C4B5FD"
             }
@@ -174,7 +176,6 @@
                 "support.class.php",
                 "variable.other.readwrite.alias.js",
                 "variable.other.property.js"
-
             ],
             "settings": {
                 "foreground": "#F45282"

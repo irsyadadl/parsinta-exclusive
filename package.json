@@ -3,7 +3,11 @@
     "displayName": "Parsinta Exclusive",
     "description": "A theme that suits your eyes.",
     "version": "1.0.0",
-    "publisher": "Parsinta",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/irsyadadl/parsinta-exclusive"
+    },
+    "publisher": "irsyadadl",
     "engines": {
         "vscode": "^1.69.0"
     },
