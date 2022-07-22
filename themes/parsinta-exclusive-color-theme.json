@@ -150,7 +150,8 @@
                 "keyword.other.class.php",
                 "constant.language.boolean.true",
                 "keyword.operator.new",
-                "keyword.other.new"
+                "keyword.other.new",
+                "variable.parameter.js.jsx"
             ],
             "settings": {
                 "foreground": "#7DD3FC"
@@ -175,7 +176,8 @@
                 "entity.name.type.class.php",
                 "support.class.php",
                 "variable.other.readwrite.alias.js",
-                "variable.other.property.js"
+                "variable.other.property.js",
+                "meta.definition.function.js.jsx"
             ],
             "settings": {
                 "foreground": "#F45282"
