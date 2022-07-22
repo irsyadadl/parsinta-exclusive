@@ -1,0 +1,184 @@
+{
+    "name": "Irsyad A. Panjaitan",
+    "colors": {
+        "editor.background": "#1F2937",
+        "editorGutter.background": "#1F2937",
+        "activityBar.background": "#111827",
+        "activityBar.foreground": "#F9FAFB",
+        "editorGroupHeader.noTabsBackground": "#111827",
+        "editorGroup.emptyBackground": "#ff0000",
+        "editorLineNumber.activeForeground": "#F9FAFB",
+        "editorLineNumber.foreground": "#6B7280",
+        "editorGroupHeader.border": "#374151",
+        "sideBar.background": "#111827",
+        "scrollbar.shadow": "#1F2937",
+        "sideBar.border": "#374151",
+        "sideBar.foreground": "#9CA3AF",
+        "list.activeSelectionBackground": "#374151",
+        "list.activeSelectionForeground": "#38BDF8",
+        "list.inactiveSelectionForeground": "#F9FAFB",
+        "list.focusOutline": "#374151",
+        "list.inactiveSelectionBackground": "#374151",
+        "list.hoverBackground": "#1F2937",
+        "terminal.dropBackground": "#374151",
+        "terminal.background": "#111827",
+
+        "terminal.foreground": "#F9FAFB",
+        "terminal.selectionBackground": "#2563EB",
+        "terminal.selectionForeground": "#F9FAFB",
+        "terminalCursor.foreground": "#0EA5E9",
+        "panel.background": "#111827",
+        "panel.border": "#374151",
+        "panelTitle.activeBorder": "#111827",
+        "panelTitle.activeForeground": "#F9FAFB",
+        "panelTitle.inactiveForeground": "#9CA3AF",
+        "terminal.ansiBrightCyan": "#0EA5E9",
+        "terminal.ansiBrightRed": "#F45282",
+        "terminal.ansiBrightGreen": "#F9FAFB",
+        "terminal.ansiBrightBlue": "#A5CAFF",
+        "terminal.ansiGreen": "#BBF7D0",
+        "terminal.ansiYellow": "#FEF08A",
+        "editorWidget.background": "#1F2937",
+        "editorWidget.border": "#374151",
+        "debugToolBar.background": "#1F2937",
+        "debugToolBar.border": "#374151",
+        "quickInput.background": "#1F2937",
+        "quickInputList.focusBackground": "#374151",
+        "quickInputList.focusForeground": "#F9FAFB",
+        "inputOption.activeBorder": "#374151",
+        "inputOption.activeBackground": "#111827",
+        "inputOption.hoverBackground": "#1F2937",
+        "statusBar.background": "#374151",
+        "keybindingLabel.background": "#374151",
+        "keybindingLabel.border": "#4B5563",
+        "dropdown.background": "#ff0000",
+        "keybindingLabel.bottomBorder": "#374151",
+        "keybindingTable.rowsBackground": "#111827",
+        "keybindingTable.headerBackground": "#374151",
+        "input.background": "#1F2937",
+        "input.border": "#374151",
+        "input.foreground": "#E5E7EB",
+        "input.placeholderForeground": "#9CA3AF",
+        "editorGroupHeader.tabsBackground": "#1F2937",
+        "tab.unfocusedHoverForeground": "#ffffff",
+        "tab.inactiveBackground": "#1F2937",
+        "tab.activeBackground": "#1F2937",
+        "minimap.background": "#1F2937",
+        "minimap.selectionHighlight": "#0EA5E9",
+        "minimap.findMatchHighlight": "#0EA5E9"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "string.quoted.single",
+                "string.quoted.double",
+                "string.template",
+            ],
+            "settings": {
+                "foreground": "#EFD5AF"
+            }
+        },
+        {
+            "scope": [
+
+                "entity.name.function.php",
+                "variable.language.this.php",
+                "variable.other.property.php",
+                "source.unknown",
+                "meta.tag.metadata.doctype.html",
+                "entity.name.tag.html",
+                "keyword.control.from.js.jsx",
+                "storage.type.function.php",
+                "storage.type.class.php",
+                "punctuation.terminator.rule.css",
+                "constant.numeric.css",
+                "meta.property-list.css",
+                "punctuation.terminator.rule.scss",
+                "support.constant.property-value.css",
+                "support.function.basic_functions.php",
+                "variable.other.php",
+                "keyword.control.exit.php",
+                "support.other.namespace.php",
+                "variable.other.constant.property",
+                "meta.object-literal.key"
+            ],
+            "settings": {
+                "foreground": "#D1D5DB"
+            }
+        },
+        {
+            "scope": "comment.block",
+            "settings": {
+                "foreground": "#6B7280"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name.html",
+                "storage.type.function.php",
+                "entity.other.attribute-name.js.jsx",
+                "entity.other.attribute-name.class.css",
+            ],
+            "settings": {
+                "foreground": "#A5CAFF"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.decimal.php",
+            ],
+            "settings": {
+                "foreground": "#C4B5FD"
+            }
+        },
+        {
+            "scope": [
+                "support.class.php",
+                "entity.name.type.namespace.php",
+                "entity.name.type.class.php",
+                "entity.other.inherited-class.php",
+                "punctuation.section.embedded.begin.php",
+                "storage.type.php",
+                "keyword.control.import.js.jsx",
+                "keyword.control.import.js",
+                "text.html.php.blade",
+                "variable.other.constant.js.jsx",
+                "support.type.property-name.css",
+                "meta.property-list.scss",
+                "keyword.other.class.php",
+                "constant.language.boolean.true",
+                "keyword.operator.new",
+                "keyword.other.new"
+            ],
+            "settings": {
+                "foreground": "#7DD3FC"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.phpdoc.php",
+                "storage.modifier.php",
+                "keyword.other.use.php",
+                "keyword.control.return.php",
+                "keyword.operator.null-coalescing.php",
+                "entity.name.tag.js.jsx",
+                "entity.name.tag.html",
+                "keyword.other.namespace.php",
+                "variable.other.readwrite.alias.js.jsx",
+                "keyword.control.at-rule.import.css",
+                "keyword.control.at-rule.layer.tailwind",
+                "source.css",
+                "entity.name.tag.css.sass.symbol",
+                "keyword.operator.logical.php",
+                "entity.name.type.class.php",
+                "support.class.php",
+                "variable.other.readwrite.alias.js",
+                "variable.other.property.js"
+
+            ],
+            "settings": {
+                "foreground": "#F45282"
+            }
+        }
+    ]
+}

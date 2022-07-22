@@ -1,0 +1,22 @@
+{
+    "name": "parsinta-exclusive",
+    "displayName": "Parsinta Exclusive",
+    "description": "A theme that suits your eyes.",
+    "version": "1.0.0",
+    "publisher": "Parsinta",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Irsyad A. Panjaitan",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Irsyad A. Panjaitan-color-theme.json"
+            }
+        ]
+    }
+}
