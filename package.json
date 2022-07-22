@@ -7,6 +7,13 @@
     "engines": {
         "vscode": "^1.69.0"
     },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "parsinta",
+        "parsinta theme",
+        "parsinta exclusive"
+    ],
     "categories": [
         "Themes"
     ],
