@@ -1,20 +1,28 @@
 {
     "name": "Irsyad A. Panjaitan",
     "colors": {
-        "editor.background": "#1F2937",
-        "editor.foreground": "#E5E7EB",
-        "editorGutter.background": "#1F2937",
+        "editor.background": "#111827",
+        "editor.foreground": "#D1D5DB",
+        "editorGutter.background": "#111827",
         "activityBar.background": "#111827",
         "activityBar.foreground": "#F9FAFB",
-        "activityBar.border": "#374151",
-        "editorGroupHeader.noTabsBackground": "#1F2937",
-        "editorGroup.emptyBackground": "#1F2937",
+        "activityBar.inactiveForeground": "#6B7280",
+        "activityBar.activeBackground": "#1F2937",
+        "activityBar.activeBorder": "#2563EB",
+        "activityBarBadge.background": "#2563EB",
+        "activityBarBadge.foreground": "#ffffff",
+        "button.background": "#2563EB",
+        "button.foreground": "#ffffff",
+        "button.hoverBackground": "#1D4ED8",
+        "activityBar.border": "#1F2937",
+        "editorGroupHeader.noTabsBackground": "#111827",
+        "editorGroup.emptyBackground": "#111827",
         "editorLineNumber.activeForeground": "#F9FAFB",
         "editorLineNumber.foreground": "#6B7280",
-        "editorGroupHeader.border": "#374151",
+        "editorGroupHeader.border": "#1F2937",
         "sideBar.background": "#111827",
-        "scrollbar.shadow": "#1F2937",
-        "sideBar.border": "#374151",
+        "scrollbar.shadow": "#111827",
+        "sideBar.border": "#1F2937",
         "sideBar.foreground": "#9CA3AF",
         "list.activeSelectionBackground": "#374151",
         "list.activeSelectionForeground": "#38BDF8",
@@ -24,50 +32,49 @@
         "list.hoverBackground": "#1F2937",
         "terminal.dropBackground": "#374151",
         "terminal.background": "#111827",
-
         "terminal.foreground": "#F9FAFB",
         "terminal.selectionBackground": "#2563EB",
         "terminal.selectionForeground": "#F9FAFB",
         "terminalCursor.foreground": "#0EA5E9",
         "panel.background": "#111827",
-        "panel.border": "#374151",
+        "panel.border": "#1F2937",
         "panelTitle.activeBorder": "#111827",
         "panelTitle.activeForeground": "#F9FAFB",
         "panelTitle.inactiveForeground": "#9CA3AF",
         "terminal.ansiBrightCyan": "#0EA5E9",
-        "badge.background":"#2563EB",
-        "badge.foreground":"#ffffff",
+        "badge.background": "#2563EB",
+        "badge.foreground": "#ffffff",
         "terminal.ansiBrightRed": "#F45282",
         "terminal.ansiBrightGreen": "#F9FAFB",
         "terminal.ansiBrightBlue": "#A5CAFF",
         "terminal.ansiGreen": "#BBF7D0",
         "terminal.ansiYellow": "#FEF08A",
         "editorWidget.background": "#1F2937",
-        "editorWidget.border": "#374151",
+        "editorWidget.border": "#1F2937",
         "debugToolBar.background": "#1F2937",
-        "debugToolBar.border": "#374151",
+        "debugToolBar.border": "#1F2937",
         "quickInput.background": "#1F2937",
         "quickInputList.focusBackground": "#374151",
         "quickInputList.focusForeground": "#F9FAFB",
         "inputOption.activeBorder": "#374151",
         "inputOption.activeBackground": "#111827",
         "inputOption.hoverBackground": "#1F2937",
-        "statusBar.background": "#374151",
-        "keybindingLabel.background": "#374151",
-        "keybindingLabel.border": "#4B5563",
+        "statusBar.background": "#1F2937",
+        "keybindingLabel.background": "#1F2937",
+        "keybindingLabel.border": "#1F2937",
         "dropdown.background": "#1F2937",
-        "keybindingLabel.bottomBorder": "#374151",
+        "keybindingLabel.bottomBorder": "#1F2937",
         "keybindingTable.rowsBackground": "#111827",
-        "keybindingTable.headerBackground": "#374151",
+        "keybindingTable.headerBackground": "#1F2937",
         "input.background": "#1F2937",
-        "input.border": "#374151",
-        "input.foreground": "#E5E7EB",
+        "input.border": "#1F2937",
+        "input.foreground": "#D1D5DB",
         "input.placeholderForeground": "#9CA3AF",
-        "editorGroupHeader.tabsBackground": "#1F2937",
+        "editorGroupHeader.tabsBackground": "#111827",
         "tab.unfocusedHoverForeground": "#ffffff",
-        "tab.inactiveBackground": "#1F2937",
-        "tab.activeBackground": "#1F2937",
-        "minimap.background": "#1F2937",
+        "tab.inactiveBackground": "#111827",
+        "tab.activeBackground": "#111827",
+        "minimap.background": "#111827",
         "minimap.selectionHighlight": "#0EA5E9",
         "minimap.findMatchHighlight": "#0EA5E9"
     },
@@ -85,7 +92,7 @@
         },
         {
             "scope": [
-                "entity.name.function.php",
+                "meta.function.php",
                 "variable.language.this.php",
                 "variable.other.property.php",
                 "source.unknown",
@@ -106,16 +113,29 @@
                 "variable.other.constant.property",
                 "meta.object-literal.key",
                 "meta.structure.dictionary.value.json.comments",
-                "variable.other.property.js.jsx"
+                "variable.other.property.js.jsx",
+                "punctuation.terminator.tailwind.tailwind"
             ],
             "settings": {
-                "foreground": "#E5E7EB"
+                "foreground": "#D1D5DB"
             }
         },
         {
-            "scope": ["comment.block", "comment.line.double-slash.js"],
+            "scope": [
+                "comment.block",
+                "comment.line.double-slash.js",
+                "comment.line.double-slash.php"
+            ],
             "settings": {
                 "foreground": "#6B7280"
+            }
+        },
+        {
+            "scope": [
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#E5E7EB"
             }
         },
         {
@@ -154,7 +174,11 @@
                 "keyword.operator.new",
                 "keyword.other.new",
                 "variable.parameter.js.jsx",
-                "variable.other.readwrite.js.jsx"
+                "variable.other.readwrite.js.jsx",
+                "entity.name.function.php",
+                "keyword.other.use.php",
+                "variable.parameter.tailwind.tailwind",
+                "variable.parameter.layer.tailwind"
             ],
             "settings": {
                 "foreground": "#7DD3FC"
@@ -163,8 +187,6 @@
         {
             "scope": [
                 "keyword.other.phpdoc.php",
-                "storage.modifier.php",
-                "keyword.other.use.php",
                 "keyword.control.return.php",
                 "keyword.operator.null-coalescing.php",
                 "entity.name.tag.js.jsx",
@@ -174,6 +196,7 @@
                 "keyword.control.at-rule.import.css",
                 "keyword.control.at-rule.layer.tailwind",
                 "source.css",
+                "meta.at-rule.apply.tailwind",
                 "entity.name.tag.css.sass.symbol",
                 "keyword.operator.logical.php",
                 "entity.name.type.class.php",
