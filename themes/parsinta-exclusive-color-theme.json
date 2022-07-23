@@ -132,7 +132,9 @@
         },
         {
             "scope": [
-                "meta.tag"
+                "meta.tag",
+                "meta.selector.pseudo-element.css",
+                "punctuation.terminator.apply.tailwind"
             ],
             "settings": {
                 "foreground": "#E5E7EB"
