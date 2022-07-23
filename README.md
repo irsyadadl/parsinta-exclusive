@@ -8,7 +8,7 @@ To apply theme, it's so simple. Just open your command palette and type "setting
 ```json
 {
 	"workbench.colorTheme": "Parsinta Exclusive",
-    ...
+    // ...
 }
 ```
 
@@ -16,7 +16,6 @@ If you want, I have some recommended settings that you can use.
 
 ```bash
 {
-
   	"workbench.colorTheme": "Parsinta Exclusive",
 	"editor.lightbulb.enabled": false,
     "editor.selectionHighlight": false,
