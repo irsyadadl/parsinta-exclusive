@@ -2,7 +2,7 @@
     "name": "parsinta-exclusive",
     "displayName": "Parsinta Exclusive",
     "description": "A theme that suits your eyes.",
-    "version": "1.1.7",
+    "version": "0.1.8",
     "icon": "images/icon.png",
     "bugs": {
         "url": "https://github.com/irsyadadl/parsinta-exclusive/issues",
@@ -12,7 +12,7 @@
         "type": "git",
         "url": "https://github.com/irsyadadl/parsinta-exclusive"
     },
-    "publisher": "irsyadadl",
+    "publisher": "parsinta",
     "engines": {
         "vscode": "^1.69.0"
     },
