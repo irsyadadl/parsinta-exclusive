@@ -14,7 +14,7 @@
     },
     "publisher": "parsinta",
     "engines": {
-        "vscode": "^1.69.0"
+        "vscode": "^1.69.2"
     },
     "keywords": [
         "theme",

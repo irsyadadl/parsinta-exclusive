@@ -1,5 +1,5 @@
 {
-    "name": "Irsyad A. Panjaitan",
+    "name": "Parsinta Exclusive",
     "colors": {
         "editor.background": "#111827",
         "editor.foreground": "#D1D5DB",
@@ -99,7 +99,6 @@
                 "meta.tag.metadata.doctype.html",
                 "entity.name.tag.html",
                 "keyword.control.from.js.jsx",
-                "storage.type.function.php",
                 "storage.type.class.php",
                 "punctuation.terminator.rule.css",
                 "constant.numeric.css",
@@ -114,7 +113,9 @@
                 "meta.object-literal.key",
                 "meta.structure.dictionary.value.json.comments",
                 "variable.other.property.js.jsx",
-                "punctuation.terminator.tailwind.tailwind"
+                "punctuation.terminator.tailwind.tailwind",
+                "text.html.php.blade",
+                "storage.type.function.php",
             ],
             "settings": {
                 "foreground": "#D1D5DB"
@@ -137,15 +138,16 @@
                 "punctuation.terminator.apply.tailwind"
             ],
             "settings": {
-                "foreground": "#E5E7EB"
+                "foreground": "#D1D5DB"
             }
         },
         {
             "scope": [
                 "entity.other.attribute-name.html",
-                "storage.type.function.php",
                 "entity.other.attribute-name.js.jsx",
-                "entity.other.attribute-name.class.css"
+                "entity.other.attribute-name.class.css",
+                "entity.name.function.php",
+                "support.function.string.php"
             ],
             "settings": {
                 "foreground": "#A5CAFF"
@@ -167,7 +169,6 @@
                 "storage.type.php",
                 "keyword.control.import.js.jsx",
                 "keyword.control.import.js",
-                "text.html.php.blade",
                 "variable.other.constant.js.jsx",
                 "support.type.property-name.css",
                 "meta.property-list.scss",
@@ -177,10 +178,11 @@
                 "keyword.other.new",
                 "variable.parameter.js.jsx",
                 "variable.other.readwrite.js.jsx",
-                "entity.name.function.php",
                 "keyword.other.use.php",
                 "variable.parameter.tailwind.tailwind",
-                "variable.parameter.layer.tailwind"
+                "variable.parameter.layer.tailwind",
+                "entity.name.function.blade",
+                "keyword.blade"
             ],
             "settings": {
                 "foreground": "#7DD3FC"
