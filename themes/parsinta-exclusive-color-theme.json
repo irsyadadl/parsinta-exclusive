@@ -135,7 +135,8 @@
             "scope": [
                 "meta.tag",
                 "meta.selector.pseudo-element.css",
-                "punctuation.terminator.apply.tailwind"
+                "punctuation.terminator.apply.tailwind",
+                "entity.name.type.namespace.php",
             ],
             "settings": {
                 "foreground": "#D1D5DB"
@@ -148,24 +149,22 @@
                 "entity.other.attribute-name.class.css",
                 "entity.name.function.php",
                 "support.function.string.php",
-                "entity.other.attribute-name.js"
+                "entity.other.attribute-name.js",
+                "storage.type.class.php",
+                "storage.modifier.extends.php",
+                "storage.modifier.implements.php",
+                "keyword.other.use.php",
+                "keyword.other.namespace.php",
+                "entity.other.attribute-name.localname.xml"
             ],
             "settings": {
                 "foreground": "#A5CAFF"
             }
         },
         {
-            "scope": ["constant.numeric.decimal.php"],
-            "settings": {
-                "foreground": "#C4B5FD"
-            }
-        },
-        {
             "scope": [
                 "support.class.php",
-                "entity.name.type.namespace.php",
                 "entity.name.type.class.php",
-                "entity.other.inherited-class.php",
                 "punctuation.section.embedded.begin.php",
                 "storage.type.php",
                 "keyword.control.import.js.jsx",
@@ -179,7 +178,6 @@
                 "keyword.other.new",
                 "variable.parameter.js.jsx",
                 "variable.other.readwrite.js.jsx",
-                "keyword.other.use.php",
                 "variable.parameter.tailwind.tailwind",
                 "variable.parameter.layer.tailwind",
                 "entity.name.function.blade",
@@ -187,6 +185,7 @@
                 "variable.parameter.js",
                 "variable.other.constant.js",
                 "variable.other.readwrite.js",
+                "constant.numeric.decimal.php"
             ],
             "settings": {
                 "foreground": "#7DD3FC"
@@ -199,7 +198,6 @@
                 "keyword.operator.null-coalescing.php",
                 "entity.name.tag.js.jsx",
                 "entity.name.tag.html",
-                "keyword.other.namespace.php",
                 "variable.other.readwrite.alias.js.jsx",
                 "keyword.control.at-rule.import.css",
                 "keyword.control.at-rule.layer.tailwind",
@@ -214,6 +212,8 @@
                 "meta.definition.function.js.jsx",
                 "entity.name.function.js",
                 "entity.name.tag.js",
+                "entity.other.inherited-class.php",
+                "entity.name.tag.localname.xml"
             ],
             "settings": {
                 "foreground": "#F45282"
