@@ -147,7 +147,8 @@
                 "entity.other.attribute-name.js.jsx",
                 "entity.other.attribute-name.class.css",
                 "entity.name.function.php",
-                "support.function.string.php"
+                "support.function.string.php",
+                "entity.other.attribute-name.js"
             ],
             "settings": {
                 "foreground": "#A5CAFF"
@@ -182,7 +183,10 @@
                 "variable.parameter.tailwind.tailwind",
                 "variable.parameter.layer.tailwind",
                 "entity.name.function.blade",
-                "keyword.blade"
+                "keyword.blade",
+                "variable.parameter.js",
+                "variable.other.constant.js",
+                "variable.other.readwrite.js",
             ],
             "settings": {
                 "foreground": "#7DD3FC"
@@ -207,7 +211,9 @@
                 "support.class.php",
                 "variable.other.readwrite.alias.js",
                 "variable.other.property.js",
-                "meta.definition.function.js.jsx"
+                "meta.definition.function.js.jsx",
+                "entity.name.function.js",
+                "entity.name.tag.js",
             ],
             "settings": {
                 "foreground": "#F45282"
