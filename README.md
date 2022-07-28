@@ -12,6 +12,14 @@ To apply theme, it's so simple. Just open your command palette and type "setting
 }
 ```
 
+If you care about the title bar style, please make sure you have the titleBarStyle to "custom" like so:
+```json
+{
+    "workbench.colorTheme": "Parsinta Exclusive",
+    "window.titleBarStyle": "custom"
+    // ...
+}
+
 If you want, I have some recommended settings that you can use.
 
 ```bash
