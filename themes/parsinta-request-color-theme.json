@@ -1,0 +1,223 @@
+{
+    "name": "Parsinta Exclusive",
+    "colors": {
+        "editor.background": "#1F2937",
+        "editor.foreground": "#D1D5DB",
+        "editorGutter.background": "#1F2937",
+        "activityBar.background": "#1F2937",
+        "activityBar.foreground": "#F9FAFB",
+        "activityBar.inactiveForeground": "#9CA3AF",
+        "activityBar.activeBackground": "#374151",
+        "activityBar.activeBorder": "#2563EB",
+        "activityBarBadge.background": "#2563EB",
+        "activityBarBadge.foreground": "#ffffff",
+        "button.background": "#374151",
+        "button.foreground": "#ffffff",
+        "button.hoverBackground": "#374151",
+        "activityBar.border": "#374151",
+        "editorGroupHeader.noTabsBackground": "#1F2937",
+        "editorGroup.emptyBackground": "#1F2937",
+        "editorLineNumber.activeForeground": "#F9FAFB",
+        "editorLineNumber.foreground": "#6B7280",
+        "editorGroupHeader.border": "#374151",
+        "sideBar.background": "#1F2937",
+        "scrollbar.shadow": "#1F2937",
+        "sideBar.border": "#374151",
+        "sideBar.foreground": "#9CA3AF",
+        "list.activeSelectionBackground": "#374151",
+        "list.activeSelectionForeground": "#38BDF8",
+        "list.inactiveSelectionForeground": "#F9FAFB",
+        "list.focusOutline": "#374151",
+        "list.inactiveSelectionBackground": "#374151",
+        "list.hoverBackground": "#1F2937",
+        "terminal.dropBackground": "#374151",
+        "terminal.background": "#1F2937",
+        "terminal.foreground": "#F9FAFB",
+        "terminal.selectionBackground": "#2563EB",
+        "terminal.selectionForeground": "#F9FAFB",
+        "terminalCursor.foreground": "#0EA5E9",
+        "panel.background": "#1F2937",
+        "panel.border": "#374151",
+        "panelTitle.activeBorder": "#1F2937",
+        "panelTitle.activeForeground": "#F9FAFB",
+        "panelTitle.inactiveForeground": "#9CA3AF",
+        "terminal.ansiBrightCyan": "#0EA5E9",
+        "badge.background": "#2563EB",
+        "badge.foreground": "#ffffff",
+        "terminal.ansiBrightRed": "#F45282",
+        "terminal.ansiBrightGreen": "#F9FAFB",
+        "terminal.ansiBrightBlue": "#A5CAFF",
+        "terminal.ansiGreen": "#BBF7D0",
+        "terminal.ansiYellow": "#FEF08A",
+        "editorWidget.background": "#1F2937",
+        "editorWidget.border": "#1F2937",
+        "debugToolBar.background": "#1F2937",
+        "debugToolBar.border": "#1F2937",
+        "quickInput.background": "#1F2937",
+        "quickInputList.focusBackground": "#374151",
+        "quickInputList.focusForeground": "#F9FAFB",
+        "inputOption.activeBorder": "#374151",
+        "inputOption.activeBackground": "#111827",
+        "inputOption.hoverBackground": "#1F2937",
+        "statusBar.background": "#374151",
+        "keybindingLabel.background": "#1F2937",
+        "keybindingLabel.border": "#1F2937",
+        "dropdown.background": "#1F2937",
+        "keybindingLabel.bottomBorder": "#1F2937",
+        "keybindingTable.rowsBackground": "#111827",
+        "keybindingTable.headerBackground": "#1F2937",
+        "input.background": "#374151",
+        "input.border": "#4B5563",
+        "input.foreground": "#D1D5DB",
+        "input.placeholderForeground": "#9CA3AF",
+        "editorGroupHeader.tabsBackground": "#1F2937",
+        "tab.unfocusedHoverForeground": "#ffffff",
+        "tab.inactiveBackground": "#1F2937",
+        "tab.activeBackground": "#1F2937",
+        "minimap.background": "#1F2937",
+        "minimap.selectionHighlight": "#0EA5E9",
+        "minimap.findMatchHighlight": "#0EA5E9"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "string.quoted.single",
+                "string.quoted.double",
+                "string.template",
+                "string.json.comments"
+            ],
+            "settings": {
+                "foreground": "#EFD5AF"
+            }
+        },
+        {
+            "scope": [
+                "meta.function.php",
+                "variable.language.this.php",
+                "variable.other.property.php",
+                "source.unknown",
+                "meta.tag.metadata.doctype.html",
+                "entity.name.tag.html",
+                "keyword.control.from.js.jsx",
+                "storage.type.class.php",
+                "punctuation.terminator.rule.css",
+                "constant.numeric.css",
+                "meta.property-list.css",
+                "punctuation.terminator.rule.scss",
+                "support.constant.property-value.css",
+                "support.function.basic_functions.php",
+                "variable.other.php",
+                "keyword.control.exit.php",
+                "support.other.namespace.php",
+                "variable.other.constant.property",
+                "meta.object-literal.key",
+                "meta.structure.dictionary.value.json.comments",
+                "variable.other.property.js.jsx",
+                "punctuation.terminator.tailwind.tailwind",
+                "text.html.php.blade",
+                "storage.type.function.php",
+            ],
+            "settings": {
+                "foreground": "#D1D5DB"
+            }
+        },
+        {
+            "scope": [
+                "comment.block",
+                "comment.line.double-slash.js",
+                "comment.line.double-slash.php"
+            ],
+            "settings": {
+                "foreground": "#6B7280"
+            }
+        },
+        {
+            "scope": [
+                "meta.tag",
+                "meta.selector.pseudo-element.css",
+                "punctuation.terminator.apply.tailwind",
+                "entity.name.type.namespace.php",
+            ],
+            "settings": {
+                "foreground": "#D1D5DB"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.js.jsx",
+                "entity.other.attribute-name.class.css",
+                "entity.name.function.php",
+                "support.function.string.php",
+                "entity.other.attribute-name.js",
+                "storage.type.class.php",
+                "storage.modifier.extends.php",
+                "storage.modifier.implements.php",
+                "keyword.other.use.php",
+                "keyword.other.namespace.php",
+                "entity.other.attribute-name.localname.xml"
+            ],
+            "settings": {
+                "foreground": "#A5CAFF"
+            }
+        },
+        {
+            "scope": [
+                "support.class.php",
+                "entity.name.type.class.php",
+                "punctuation.section.embedded.begin.php",
+                "storage.type.php",
+                "keyword.control.import.js.jsx",
+                "keyword.control.import.js",
+                "variable.other.constant.js.jsx",
+                "support.type.property-name.css",
+                "meta.property-list.scss",
+                "keyword.other.class.php",
+                "constant.language.boolean.true",
+                "keyword.operator.new",
+                "keyword.other.new",
+                "variable.parameter.js.jsx",
+                "variable.other.readwrite.js.jsx",
+                "variable.parameter.tailwind.tailwind",
+                "variable.parameter.layer.tailwind",
+                "entity.name.function.blade",
+                "keyword.blade",
+                "variable.parameter.js",
+                "variable.other.constant.js",
+                "variable.other.readwrite.js",
+                "constant.numeric.decimal.php"
+            ],
+            "settings": {
+                "foreground": "#7DD3FC"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.phpdoc.php",
+                "keyword.control.return.php",
+                "keyword.operator.null-coalescing.php",
+                "entity.name.tag.js.jsx",
+                "entity.name.tag.html",
+                "variable.other.readwrite.alias.js.jsx",
+                "keyword.control.at-rule.import.css",
+                "keyword.control.at-rule.layer.tailwind",
+                "source.css",
+                "meta.at-rule.apply.tailwind",
+                "entity.name.tag.css.sass.symbol",
+                "keyword.operator.logical.php",
+                "entity.name.type.class.php",
+                "support.class.php",
+                "variable.other.readwrite.alias.js",
+                "variable.other.property.js",
+                "meta.definition.function.js.jsx",
+                "entity.name.function.js",
+                "entity.name.tag.js",
+                "entity.other.inherited-class.php",
+                "entity.name.tag.localname.xml"
+            ],
+            "settings": {
+                "foreground": "#F45282"
+            }
+        }
+    ]
+}
