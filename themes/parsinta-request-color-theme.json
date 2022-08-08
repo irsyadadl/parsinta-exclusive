@@ -1,11 +1,11 @@
 {
     "name": "Parsinta Exclusive",
     "colors": {
-        "titleBar.activeBackground":"#1F2937",
-        "titleBar.activeForeground":"#ffffff",
-        "titleBar.inactiveBackground":"#1F2937",
-        "titleBar.inactiveForeground":"#E5E7EB",
-        "titleBar.border":"#374151",
+        "titleBar.activeBackground": "#1F2937",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#1F2937",
+        "titleBar.inactiveForeground": "#E5E7EB",
+        "titleBar.border": "#374151",
         "editor.background": "#1F2937",
         "editor.foreground": "#D1D5DB",
         "editorGutter.background": "#1F2937",
@@ -24,7 +24,7 @@
         "editorGroup.emptyBackground": "#1F2937",
         "editorLineNumber.activeForeground": "#F9FAFB",
         "editorLineNumber.foreground": "#6B7280",
-        "editorGroupHeader.border": "#374151",
+        "editorGroupHeader.border": "#2C3646",
         "sideBar.background": "#1F2937",
         "scrollbar.shadow": "#1F2937",
         "sideBar.border": "#374151",
@@ -104,6 +104,7 @@
                 "meta.tag.metadata.doctype.html",
                 "entity.name.tag.html",
                 "keyword.control.from.js.jsx",
+                "keyword.control.from.ts.tsx",
                 "storage.type.class.php",
                 "punctuation.terminator.rule.css",
                 "constant.numeric.css",
@@ -118,9 +119,21 @@
                 "meta.object-literal.key",
                 "meta.structure.dictionary.value.json.comments",
                 "variable.other.property.js.jsx",
+                "variable.other.property.ts.tsx",
                 "punctuation.terminator.tailwind.tailwind",
                 "text.html.php.blade",
                 "storage.type.function.php",
+
+                "meta.tag",
+                "meta.selector.pseudo-element.css",
+                "punctuation.terminator.apply.tailwind",
+                "entity.name.type.namespace.php",
+                "text.html.vue-html",
+                "meta.tag.block.any.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "meta.directive.vue",
+                "source.vue"
             ],
             "settings": {
                 "foreground": "#D1D5DB"
@@ -130,6 +143,7 @@
             "scope": [
                 "comment.block",
                 "comment.line.double-slash.js",
+                "comment.line.double-slash.ts",
                 "comment.line.double-slash.php"
             ],
             "settings": {
@@ -138,29 +152,22 @@
         },
         {
             "scope": [
-                "meta.tag",
-                "meta.selector.pseudo-element.css",
-                "punctuation.terminator.apply.tailwind",
-                "entity.name.type.namespace.php",
-            ],
-            "settings": {
-                "foreground": "#D1D5DB"
-            }
-        },
-        {
-            "scope": [
                 "entity.other.attribute-name.html",
                 "entity.other.attribute-name.js.jsx",
+                "entity.other.attribute-name.ts.tsx",
                 "entity.other.attribute-name.class.css",
                 "entity.name.function.php",
                 "support.function.string.php",
                 "entity.other.attribute-name.js",
+                "entity.other.attribute-name.ts",
                 "storage.type.class.php",
                 "storage.modifier.extends.php",
                 "storage.modifier.implements.php",
                 "keyword.other.use.php",
                 "keyword.other.namespace.php",
-                "entity.other.attribute-name.localname.xml"
+                "entity.other.attribute-name.localname.xml",
+                "storage.type.enum.php",
+                "storage.modifier.php"
             ],
             "settings": {
                 "foreground": "#A5CAFF"
@@ -172,24 +179,32 @@
                 "entity.name.type.class.php",
                 "punctuation.section.embedded.begin.php",
                 "storage.type.php",
-                "keyword.control.import.js.jsx",
                 "keyword.control.import.js",
+                "keyword.control.import.js.jsx",
                 "variable.other.constant.js.jsx",
+                "variable.parameter.js.jsx",
+                "variable.other.readwrite.js.jsx",
+                "variable.parameter.ts.tsx",
+                "variable.other.readwrite.ts.tsx",
+                "variable.parameter.js",
+                "variable.parameter.ts",
+                "variable.other.constant.js",
+                "variable.other.constant.ts",
+                "variable.other.readwrite.js",
+                "variable.other.readwrite.ts",
+                "keyword.control.import.ts",
+                "keyword.control.import.ts.tsx",
+                "variable.other.constant.ts.tsx",
                 "support.type.property-name.css",
                 "meta.property-list.scss",
                 "keyword.other.class.php",
                 "constant.language.boolean.true",
                 "keyword.operator.new",
                 "keyword.other.new",
-                "variable.parameter.js.jsx",
-                "variable.other.readwrite.js.jsx",
                 "variable.parameter.tailwind.tailwind",
                 "variable.parameter.layer.tailwind",
                 "entity.name.function.blade",
                 "keyword.blade",
-                "variable.parameter.js",
-                "variable.other.constant.js",
-                "variable.other.readwrite.js",
                 "constant.numeric.decimal.php"
             ],
             "settings": {
@@ -217,8 +232,18 @@
                 "meta.definition.function.js.jsx",
                 "entity.name.function.js",
                 "entity.name.tag.js",
+                "variable.other.readwrite.alias.ts",
+                "variable.other.property.ts",
+                "meta.definition.function.ts.tsx",
+                "entity.name.function.ts",
+                "entity.name.tag.ts",
                 "entity.other.inherited-class.php",
-                "entity.name.tag.localname.xml"
+                "entity.name.tag.localname.xml",
+                "entity.name.type.enum.php",
+                "entity.name.tag.template.html",
+                "entity.name.tag.script.html",
+                "meta.tag.block.any.html",
+                "entity.name.tag.style.html"
             ],
             "settings": {
                 "foreground": "#F45282"
