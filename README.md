@@ -36,7 +36,7 @@ If you want, I have some recommended settings that you can use.
 }
 ```
 
-If you like more, please read on [Parsinta](https://parsinta.com/articles/parsinta-exclusive-the-vscode-theme-ive-just-created-lb3bjx).
+If you like more, please read on [Parsinta](https://parsinta.com/s/psnth).
 
 ## Contribute
 
