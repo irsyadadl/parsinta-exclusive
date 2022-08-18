@@ -167,7 +167,8 @@
                 "keyword.other.namespace.php",
                 "entity.other.attribute-name.localname.xml",
                 "storage.type.enum.php",
-                "storage.modifier.php"
+                "storage.modifier.php",
+                "entity.other.attribute-name.tsx"
             ],
             "settings": {
                 "foreground": "#A5CAFF"
@@ -195,6 +196,7 @@
                 "keyword.control.import.ts",
                 "keyword.control.import.ts.tsx",
                 "variable.other.constant.ts.tsx",
+                "meta.import.tsx",
                 "support.type.property-name.css",
                 "meta.property-list.scss",
                 "keyword.other.class.php",
@@ -205,7 +207,8 @@
                 "variable.parameter.layer.tailwind",
                 "entity.name.function.blade",
                 "keyword.blade",
-                "constant.numeric.decimal.php"
+                "constant.numeric.decimal.php",
+                "variable.other.readwrite.tsx",
             ],
             "settings": {
                 "foreground": "#7DD3FC"
@@ -236,14 +239,17 @@
                 "variable.other.property.ts",
                 "meta.definition.function.ts.tsx",
                 "entity.name.function.ts",
+                "entity.name.function.tsx",
                 "entity.name.tag.ts",
+                "entity.name.tag.tsx",
                 "entity.other.inherited-class.php",
                 "entity.name.tag.localname.xml",
                 "entity.name.type.enum.php",
                 "entity.name.tag.template.html",
                 "entity.name.tag.script.html",
                 "meta.tag.block.any.html",
-                "entity.name.tag.style.html"
+                "entity.name.tag.style.html",
+                "variable.other.readwrite.alias.tsx",
             ],
             "settings": {
                 "foreground": "#F45282"
