@@ -1,5 +1,6 @@
 {
     "name": "Parsinta Exclusive",
+    "type": "dark",
     "colors": {
         "titleBar.activeBackground": "#111827",
         "titleBar.activeForeground": "#ffffff",

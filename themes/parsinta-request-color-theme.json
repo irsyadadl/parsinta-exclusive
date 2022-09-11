@@ -1,5 +1,6 @@
 {
     "name": "Parsinta Exclusive",
+    "type": "dark",
     "colors": {
         "titleBar.activeBackground": "#1F2937",
         "titleBar.activeForeground": "#ffffff",
@@ -24,7 +25,7 @@
         "editorGroup.emptyBackground": "#1F2937",
         "editorLineNumber.activeForeground": "#F9FAFB",
         "editorLineNumber.foreground": "#6B7280",
-        "editorGroupHeader.border": "#2C3646",
+        "editorGroupHeader.border": "#1F2937",
         "sideBar.background": "#1F2937",
         "scrollbar.shadow": "#1F2937",
         "sideBar.border": "#374151",
