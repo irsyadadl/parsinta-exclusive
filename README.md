@@ -36,7 +36,7 @@ If you want, I have some recommended settings that you can use.
 }
 ```
 
-If you like more, please read on [Parsinta](https://parsinta.com/s/psnth).
+If you like more, please read on [Parsinta](https://eil.app/ZDA5vBc1).
 
 ## Contribute
 
