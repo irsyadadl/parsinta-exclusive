@@ -22,6 +22,7 @@ If you care about the title bar style, please make sure you have the titleBarSty
 
 If you want, I have some recommended settings that you can use.
 
+
 ```
 {
     "workbench.colorTheme": "Parsinta Exclusive",
@@ -36,7 +37,7 @@ If you want, I have some recommended settings that you can use.
 }
 ```
 
-If you like more, please read on [Parsinta](https://eil.app/ZDA5vBc1).
+If you like more, please read on [Parsinta](https://parsinta.com/articles/parsinta-exclusive-tema-vscode-yang-baru-saja-dibuat-dw2wy8).
 
 ## Contribute
 
