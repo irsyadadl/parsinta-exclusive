@@ -13,7 +13,7 @@ To apply theme, it's so simple. Just open your command palette and type "setting
 ```
 
 If you care about the title bar style, please make sure you have the titleBarStyle to "custom" like so:
-```json
+```
 {
     "workbench.colorTheme": "Parsinta Exclusive",
     "window.titleBarStyle": "custom"
@@ -22,7 +22,7 @@ If you care about the title bar style, please make sure you have the titleBarSty
 
 If you want, I have some recommended settings that you can use.
 
-```bash
+```
 {
     "workbench.colorTheme": "Parsinta Exclusive",
     "editor.lightbulb.enabled": false,
@@ -41,3 +41,7 @@ If you like more, please read on [Parsinta](https://eil.app/ZDA5vBc1).
 ## Contribute
 
 I also opened the repo on [github](https://github.com/irsyadadl/parsinta-exclusive), so for those of you who want to make the theme more robust, or add support for other languages, you can directly make a pull request.
+
+## Project supported by JetBrains
+- [Parsinta.com](https://parsinta.com)
+- [Karteil.com](https://karteil.com)
