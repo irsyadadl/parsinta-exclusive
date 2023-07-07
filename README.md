@@ -43,6 +43,6 @@ If you like more, please read on [Parsinta](https://parsinta.com/articles/parsin
 
 I also opened the repo on [github](https://github.com/irsyadadl/parsinta-exclusive), so for those of you who want to make the theme more robust, or add support for other languages, you can directly make a pull request.
 
-## Project supported by JetBrains
+## Project supported By
 - [Parsinta.com](https://parsinta.com)
 - [Karteil.com](https://karteil.com)
